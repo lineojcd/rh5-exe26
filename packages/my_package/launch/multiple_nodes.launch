@@ -1,0 +1,11 @@
+<launch>
+
+  <group ns="$(arg veh)">  
+    <node pkg="my_package" type="my_ros_wrapper.py" name="my_ros_wrapper" output="screen"/>
+   </group>
+
+</launch>
+
+
+
+
